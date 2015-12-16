@@ -1,0 +1,47 @@
+﻿Build started 30/09/2015 12:41:49.
+     1>Project "K:\Univercity\GameEngine 2\GameEngine\GameEngine.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"K:\Univercity\GameEngine 2\\" /I"K:\Univercity\GameEngine 2\Dependancies/include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\GameEngine.pdb" /Gd /TP /analyze- /errorReport:prompt AudioManager.cpp Camera.cpp Clock.cpp GameContext.cpp GameEngine.cpp GLSLProgram.cpp InputManager.cpp ParticleBatch2D.cpp ParticleEngine.cpp Private\AudioEngineWrapper.cpp Private\Utility.cpp ResourceManager.cpp Sprite.cpp SpriteBatch.cpp SpriteFont.cpp TextureManager.cpp Time.cpp Window.cpp
+         AudioManager.cpp
+         Camera.cpp
+         Clock.cpp
+         GameContext.cpp
+         GameEngine.cpp
+         GLSLProgram.cpp
+         InputManager.cpp
+         ParticleBatch2D.cpp
+         ParticleEngine.cpp
+         AudioEngineWrapper.cpp
+         Utility.cpp
+         ResourceManager.cpp
+         Sprite.cpp
+         SpriteBatch.cpp
+         SpriteFont.cpp
+         TextureManager.cpp
+         Time.cpp
+         Window.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"K:\Univercity\GameEngine 2\Release\GameEngine.lib" /NOLOGO /LTCG Release\AudioManager.obj
+         Release\Camera.obj
+         Release\Clock.obj
+         Release\GameContext.obj
+         Release\GameEngine.obj
+         Release\GLSLProgram.obj
+         Release\InputManager.obj
+         Release\ParticleBatch2D.obj
+         Release\ParticleEngine.obj
+         Release\AudioEngineWrapper.obj
+         Release\Utility.obj
+         Release\ResourceManager.obj
+         Release\Sprite.obj
+         Release\SpriteBatch.obj
+         Release\SpriteFont.obj
+         Release\TextureManager.obj
+         Release\Time.obj
+         Release\Window.obj
+         GameEngine.vcxproj -> K:\Univercity\GameEngine 2\Release\GameEngine.lib
+     1>Done Building Project "K:\Univercity\GameEngine 2\GameEngine\GameEngine.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:31.87
