@@ -1,0 +1,24 @@
+﻿Build started 30/09/2015 12:42:21.
+     1>Project "K:\Univercity\GameEngine 2\TestApp\TestApp.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"K:\Univercity\GameEngine 2\\" /I"K:\Univercity\GameEngine 2\Dependancies/include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp Item.cpp main.cpp Player.cpp World.cpp
+         Game.cpp
+         Item.cpp
+         main.cpp
+     1>main.cpp(5): warning C4316: 'Game': object allocated on the heap may not be aligned 16
+         Player.cpp
+         World.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"K:\Univercity\GameEngine 2\Release\TestApp.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"K:\Univercity\GameEngine 2\Release" /LIBPATH:"K:\Univercity\GameEngine 2\Dependancies/lib" GameEngine.lib irrKlang.lib SDL2.lib SDL2main.lib SDL2_ttf.lib opengl32.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"K:\Univercity\GameEngine 2\Release\TestApp.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\Univercity\GameEngine 2\Release\TestApp.lib" /MACHINE:X86 /SAFESEH Release\Game.obj
+         Release\Item.obj
+         Release\main.obj
+         Release\Player.obj
+         Release\World.obj
+     1>SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol __imp__fprintf
+     1>SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol __imp____iob_func
+     1>K:\Univercity\GameEngine 2\Release\TestApp.exe : fatal error LNK1120: 2 unresolved externals
+     1>Done Building Project "K:\Univercity\GameEngine 2\TestApp\TestApp.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:14.87

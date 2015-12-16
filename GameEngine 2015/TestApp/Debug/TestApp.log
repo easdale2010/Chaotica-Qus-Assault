@@ -1,0 +1,23 @@
+﻿Build started 09/12/2015 12:32:17.
+     1>Project "K:\Univercity\Year 3\Game Project Design and Plan\GameEngine2015Updates\GameEngine 2015\TestApp\TestApp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"K:\Univercity\Year 3\Game Project Design and Plan\GameEngine2015Updates\GameEngine 2015\\" /I"K:\Univercity\Year 3\Game Project Design and Plan\GameEngine2015Updates\GameEngine 2015\Dependancies/include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt World.cpp
+         World.cpp
+     1>k:\univercity\year 3\game project design and plan\gameengine2015updates\gameengine 2015\gameengine\sprite.hpp(96): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
+     1>k:\univercity\year 3\game project design and plan\gameengine2015updates\gameengine 2015\testapp\world.cpp(32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>k:\univercity\year 3\game project design and plan\gameengine2015updates\gameengine 2015\testapp\world.cpp(115): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"K:\Univercity\Year 3\Game Project Design and Plan\GameEngine2015Updates\GameEngine 2015\Debug\TestApp.exe" /INCREMENTAL /NOLOGO /LIBPATH:"K:\Univercity\Year 3\Game Project Design and Plan\GameEngine2015Updates\GameEngine 2015\Debug" /LIBPATH:"K:\Univercity\Year 3\Game Project Design and Plan\GameEngine2015Updates\GameEngine 2015\Dependancies/lib" GameEngine.lib irrKlang.lib SDL2.lib SDL2main.lib SDL2_ttf.lib opengl32.lib glew32.lib GameEngine.lib irrKlang.lib SDL2.lib SDL2main.lib SDL2_ttf.lib opengl32.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"K:\Univercity\Year 3\Game Project Design and Plan\GameEngine2015Updates\GameEngine 2015\Debug\TestApp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\Univercity\Year 3\Game Project Design and Plan\GameEngine2015Updates\GameEngine 2015\Debug\TestApp.lib" /MACHINE:X86 Debug\Background.obj
+         Debug\Bullet.obj
+         Debug\Enemies.obj
+         Debug\Game.obj
+         Debug\Item.obj
+         Debug\main.obj
+         Debug\Player.obj
+         Debug\World.obj
+         TestApp.vcxproj -> K:\Univercity\Year 3\Game Project Design and Plan\GameEngine2015Updates\GameEngine 2015\Debug\TestApp.exe
+     1>Done Building Project "K:\Univercity\Year 3\Game Project Design and Plan\GameEngine2015Updates\GameEngine 2015\TestApp\TestApp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.42
