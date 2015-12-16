@@ -1,7 +1,7 @@
  #include "World.h"
 #include <time.h>
 #include <iostream>
-
+// Alan Easdale is a Hero
 using namespace std;
 
 World::World(ge::GameContext& gameContext) :
